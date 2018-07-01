@@ -23,7 +23,7 @@
     style               = "Technique"
     license             = "Public Domain"
     maintainer          = "Daniel Studzinski"
-    maintainerWeb       = "https://github.com/"
+    maintainerWeb       = "https://github.com/upsaratus/Czerny-op599"
     mutopiainstrument   = "Piano"
 
  footer = "Mutopia-2018/07/01"
