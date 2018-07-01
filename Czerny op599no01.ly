@@ -7,7 +7,13 @@
     composer            = "Czerny, C."
     mutopiacomposer     = "CzernyC"
 
-    title               = "Practical Method for Beginners on the Pianoforte"
+    title               = \markup {
+      \center-column {
+        \line { "Practical Method for"  }
+        \line { "Beginners on the Pianoforte" }
+        \italic \line {  }
+      }
+    }
     mutopiatitle        = "Practical Method for Beginners on the Pianoforte, No. 1"
 
     opus                = "Op. 599"
