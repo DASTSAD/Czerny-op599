@@ -21,7 +21,7 @@
     mutopiatitle        = "Practical Method for Beginners on the Pianoforte, No. 1"
 
     opus                = "Op. 599"
-    mutopiaopus         = "Op. 599, No. 3"
+    mutopiaopus         = "Op. 599, No. 5"
     
     source              = "Library of Musical Classics, No.146, New York: G. Schirmer, 1893. Plate 11038."
     style               = "Technique"

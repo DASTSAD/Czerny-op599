@@ -21,7 +21,7 @@
     mutopiatitle        = "Practical Method for Beginners on the Pianoforte, No. 1"
 
     opus                = "Op. 599"
-    mutopiaopus         = "Op. 599, No. 4"
+    mutopiaopus         = "Op. 599, No. 8"
     
     source              = "Library of Musical Classics, No.146, New York: G. Schirmer, 1893. Plate 11038."
     style               = "Technique"
@@ -30,7 +30,7 @@
     maintainerWeb       = "https://github.com/upsaratus/Czerny-op599"
     mutopiainstrument   = "Piano"
 
- footer = "Mutopia-2018/07/01"
+ footer = "Mutopia-2018/07/03"
  copyright =  \markup { \override #'(baseline-skip . 0 ) \right-column { \sans \bold \with-url #"http://www.MutopiaProject.org" { \abs-fontsize #9  "Mutopia " \concat { \abs-fontsize #12 \with-color #white \char ##x01C0 \abs-fontsize #9 "Project " } } } \override #'(baseline-skip . 0 ) \center-column { \abs-fontsize #11.9 \with-color #grey \bold { \char ##x01C0 \char ##x01C0 } } \override #'(baseline-skip . 0 ) \column { \abs-fontsize #8 \sans \concat { " Typeset using " \with-url #"http://www.lilypond.org" "LilyPond" " by " \maintainer " " \char ##x2014 " " \footer } \concat { \concat { \abs-fontsize #8 \sans{ " Placed in the " \with-url #"http://creativecommons.org/licenses/publicdomain" "public domain" " by the typesetter " \char ##x2014 " free to distribute, modify, and perform" } } \abs-fontsize #13 \with-color #white \char ##x01C0 } } }
  tagline = ##f
 }
@@ -52,32 +52,24 @@ RHI = \relative c'' {
    
 }  
 
-RHII = \relative c''' {
+RHII = \relative c'' {
   \voiceTwo
   \clef treble
 
    \override Fingering.direction = #UP
 
-   c2-1 d-2
-   e1-3
-   c2-1 d-2
-   e1-3
-   f2-2 f-2
-   g-5 f-4
-   e1-3
-   c-1
-   
-   d2-2 d-2
-   e-3 f-4
-   g-5 e-3
-   c1-1
-   d2-2 d-2
-   f-4 d-2
-   c-1 e-3
-   c1-1
-
-
-  
+   <c^1 e^3 g^5>1
+   <c^1 e^3 g^5>
+   <b^1 d^2 g^5 >
+   <c^1 e^3 g^5> \bar ":..:"
+   <b^1 d^2 f^5 >
+   <c^2 e^4>
+   <b^1 d^2 f^5 >
+   <c^2 e^4>
+   <g^1 d'^3 f^5 >
+   <g^1 d'^3 f^5 >
+   <f^1 b^3 d^5 >
+   <e^1 g^2 c^5 > \bar ":|."
 }
 
 LHI = \relative c' {
@@ -85,27 +77,19 @@ LHI = \relative c' {
   \clef treble
   \global
   
-  e2-3 g-1
-  c,-5 g'-1
-  e-3 g-1
-  c,-5 g'-1
-  d-4 g-1
-  d-4 g-1
-  c,-5 g'-1
-  e1-3  \bar ":..:" \break
+  c2-5 e-3
+  c2-5 e-3
+  g-1 g-1
+  c,1-5
+  g'2-1 g-1
+  c,1-5
+  g'2-1 g-1
+  c,1-5
+  c2-2 e-1
+  c2-2 e-1
+  g,-5 g-5
+  c1-2
   
-  g2-1 f-2
-  e-3 d-2
-  c-5 g'-1
-  e-3 c-5
-  g'1-1
-  g-1
-  c,-5
-  c-5 \bar ":|."
-  
-
- 
-
 
 }
 
@@ -125,7 +109,7 @@ Dynamics = {
   \new PianoStaff \with {
     instrumentName = \markup {
       \center-column {
-        \line { \bold \huge { "№" } \number "4". }
+        \line { \bold \huge { "№" } \number "8". }
         \line \large { }
         \italic \line {  }
       }
