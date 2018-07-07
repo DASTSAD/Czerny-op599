@@ -1,5 +1,5 @@
 \version "2.19.82"
-#(set-global-staff-size 20)
+#(set-global-staff-size 22)
 
 
 
@@ -13,6 +13,12 @@
 \include "Czerny op599no08.ly"
 \include "Czerny op599no09.ly"
 \include "Czerny op599no10.ly" \pageBreak
+\include "Czerny op599no11.ly" 
+\include "Czerny op599no12.ly" \pageBreak
+\include "Czerny op599no13.ly"
+\include "Czerny op599no14.ly"
+
+
 
 
 
